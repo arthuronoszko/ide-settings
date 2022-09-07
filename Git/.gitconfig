@@ -1,2 +1,11 @@
 [pager]
 	branch = false
+[user]
+	name = Arthur Onoszko
+	email = arthur.onoszko@gmail.com
+#Step one
+# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+#Step two
+# git config --global core.editor "subl -n -w"
+[core]
+	editor = subl -n -w
